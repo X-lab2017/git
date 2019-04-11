@@ -173,8 +173,8 @@
       "environment": "git",
       "steps":[
         {
-          "title": "git log",
-          "text": "scenario/7.2-git_log.md"
+          "title": "比较两个提交间的差异",
+          "text": "scenario/7.1-比较两个提交间的差异.md"
         },
         {
           "title": "git log",
