@@ -1,1 +1,16 @@
-
+{
+  "version": "1", 
+  "title": "Git版本控制", 
+  "author": "GitCourse Players", 
+  "description": "This is an example of GitCourse project",
+  "scenarios":[
+  {
+  "title": "提交文件",
+  "environment": "git",
+  "steps":[
+  {
+  
+  }]
+  },
+  ]
+}
