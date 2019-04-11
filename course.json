@@ -141,6 +141,32 @@
           "text": "scenario/5.6-git_pull时使用rebase.md"
         }
       ]
+    },
+    {
+      "title": "使用分支",
+      "environment": "git",
+      "steps":[
+        {
+          "title": "git branch",
+          "text": "scenario/6.1-git_branch.md"
+        },
+        {
+          "title": "列举分支",
+          "text": "scenario/6.2-列举分支.md"
+        },
+        {
+          "title": "合并到master分支",
+          "text": "scenario/6.3-合并到master分支.md"
+        },
+        {
+          "title": "推送分支",
+          "text": "scenario/6.4-推送分支.md"
+        },
+        {
+          "title": "清理分支",
+          "text": "scenario/6.5-清理分支.md"
+        }
+      ]
     }
   ]
 }
