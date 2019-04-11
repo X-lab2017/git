@@ -10,7 +10,7 @@
   "steps":[
   {
     "title": "git init",
-    "text": "scenario/"
+    "text": "scenario/1.1-git_init.md"
   }]
   },
   ]
