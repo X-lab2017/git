@@ -167,6 +167,28 @@
           "text": "scenario/6.5-清理分支.md"
         }
       ]
+    },
+    {
+      "title": "发现错误",
+      "environment": "git",
+      "steps":[
+        {
+           "title": "比较两个提交间的差异",
+           "text": "scenario/7.1-比较两个提交间的差异.md"
+        },
+        {
+          "title": "git log",
+          "text": "scenario/7.2-git_log.md"
+        },
+        {
+          "title": "git_bisect",
+          "text": "scenario/7.3-git_bisect.md"
+        },
+        {
+          "title": "git blame",
+          "text": "scenario/7.4-git_blame.md"
+        }
+      ]
     }
   ]
 }
