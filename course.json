@@ -85,6 +85,32 @@
            "text": "scenario/3.5-git_fetch.md"
          }
        ]
+    },
+    {
+      "title": "撤销更改",
+      "environment": "git",
+       "steps":[
+         {
+            "title": "git checkout",
+            "text": "scenario/4.1-git_checkout.md"
+         },
+         {
+           "title": "git reset",
+           "text": "scenario/4.2-git_reset.md"
+         },
+         {
+           "title": "git reset --hard",
+           "text": "scenario/4.3-git_reset_hard.md"
+         },
+         {
+           "title": "git revert",
+           "text": "scenario/4.4-git_revert.md"
+         },
+         {
+           "title": "git revert",
+           "text": "scenario/4.5-git_revert.md"
+         }
+       ]
     }
   ]
 }
