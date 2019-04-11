@@ -29,6 +29,36 @@
           "text": "scenario/1.5-git_ignore.md"
         }
       ]
+    },
+    {
+      "title": "提交文件",
+      "environment": "git",
+      "steps":[
+        {
+          "title": "git status",
+          "text": "scenario/2.1-git_status.md"
+        },
+        {
+          "title": "git diff",
+           "text": "scenario/2.2-git_diff.md"
+        },
+        {
+          "title": "git add",
+          "text": "scenario/2.3-git_add.md"
+        },
+        {
+          "title": "staged differences",
+          "text": "scenario/2.4-staged_differences.md"
+        },
+        {
+          "title": "git log",
+          "text": "scenario/2.5-git_log.md"
+        },
+        {
+          "title": "git show",
+          "text": "scenario/2.6-git_show.md"
+        }
+      ]
     }
   ]
 }
