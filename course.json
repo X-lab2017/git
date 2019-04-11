@@ -9,7 +9,8 @@
   "environment": "git",
   "steps":[
   {
-  
+    "title": "git init",
+    "text": "scenario/"
   }]
   },
   ]
