@@ -61,7 +61,7 @@
       ]
     },
     {
-      "title": "提交文件",
+      "title": "远程协作",
       "environment": "git",
        "steps":[
          {
