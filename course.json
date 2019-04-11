@@ -4,14 +4,31 @@
   "author": "GitCourse Players", 
   "description": "This is an example of GitCourse project",
   "scenarios":[
-  {
-  "title": "提交文件",
-  "environment": "git",
-  "steps":[
-  {
-    "title": "git init",
-    "text": "scenario/1.1-git_init.md"
-  }]
-  },
+    {
+      "title": "提交文件",
+      "environment": "git",
+      "steps":[
+        {
+          "title": "git init", 
+          "text": "scenario/1.1-git_init.md",
+        },
+        {
+           "title": "git status",
+           "text": "scenario/1.2-git_status.md",
+        },
+        {
+          "title": "git add",
+          "text": "scenario/1.3-git_add.md",
+        },
+        {
+          "title": "git commit",
+          "text": "scenario/1.4-git_commit.md",
+        },
+        {
+          "title": "git ignore",
+          "text": "scenario/1.5-git_ignore.md",
+        }
+      ]
+    },
   ]
 }
