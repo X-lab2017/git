@@ -111,6 +111,36 @@
            "text": "scenario/4.5-git_revert.md"
          }
        ]
+    },
+    {
+      "title": "修复合并冲突",
+      "environment": "git",
+      "steps":[
+        {
+          "title": "git merge",
+          "text": "scenario/5.1-git_merge.md"
+        },
+        {
+          "title": "查看冲突",
+          "text": "scenario/5.2-查看冲突.md"
+        },
+        {
+          "title": "解决冲突",
+          "text": "scenario/5.3-解决冲突.md"
+        },
+        {
+           "title": "非快进合并",
+          "text": "scenario/5.4-非快进合并.md"
+        },
+        {
+          "title": "git rebase",
+          "text": "scenario/5.5-git_rebase.md"
+        },
+        {
+           "title": "Rebasing Pull Request",
+          "text": "scenario/5.6-git_pull时使用rebase.md"
+        }
+      ]
     }
   ]
 }
