@@ -12,4 +12,7 @@ fetch('http://api.kfcoding.com/api/practice/trains/competition/begin', {
   method: 'POST',
   body: JSON.stringify({repo: 'https://github.com/openx-lab/git.git'})
 }).then(resp => resp.json())
-  .then(data => localStorage.setItem('comp_id', data.data.id));
+  .then(data => {
+    if (data.data)
+      localStorage.setItem('comp_id', data.data.id)
+  });
