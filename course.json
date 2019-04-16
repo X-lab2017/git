@@ -188,6 +188,10 @@
         {
           "title": "git blame",
           "text": "scenario/7.4-git_blame.md"
+        },
+        {
+          "title": "Complete",
+          "text": "scenario/7.5-complete.md"
         }
       ]
     }
