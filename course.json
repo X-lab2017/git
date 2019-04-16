@@ -6,7 +6,7 @@
   "scenarios":[
     {
       "title": "提交文件",
-      "environment": "git",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
       "steps":[
         {
           "title": "git init",
@@ -33,7 +33,7 @@
     },
     {
       "title": "提交更改",
-      "environment": "git",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
       "steps":[
         {
           "title": "git status",
@@ -63,7 +63,7 @@
     },
     {
       "title": "远程协作",
-      "environment": "git",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
        "steps":[
          {
            "title": "git remote",
@@ -89,7 +89,7 @@
     },
     {
       "title": "撤销更改",
-      "environment": "git",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
        "steps":[
          {
             "title": "git checkout",
@@ -115,7 +115,7 @@
     },
     {
       "title": "修复合并冲突",
-      "environment": "git",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
       "steps":[
         {
           "title": "git merge",
@@ -145,7 +145,7 @@
     },
     {
       "title": "使用分支",
-      "environment": "git",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
       "steps":[
         {
           "title": "git branch",
@@ -171,7 +171,7 @@
     },
     {
       "title": "发现错误",
-      "environment": "git",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
       "steps":[
         {
           "title": "比较两个提交间的差异",
