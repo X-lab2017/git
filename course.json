@@ -192,7 +192,8 @@
         },
         {
           "title": "Complete",
-          "text": "scenario/7.5-complete.md"
+          "text": "scenario/7.5-complete.md",
+          "preload": "script/complete.js"
         }
       ]
     }
