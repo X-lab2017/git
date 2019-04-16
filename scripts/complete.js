@@ -4,11 +4,23 @@ function getCookie(name) {
   if (parts.length == 2) return parts.pop().split(";").shift();
 }
 
-fetch('http://api.kfcoding.com/api/practice/trains/competition/end', {
+fetch('http://api.kfcoding.com/api/basic/practice/trains/competition', {
   headers: {
     'Content-Type': 'application/json',
-    Authorization: Cookies.get('token')
+    Authorization: getCookie('token')
   },
-  method: 'PUT',
-  body: JSON.stringify({id: localStorage.getItem('comp_id')})
-}).then(resp => resp.json());
+  method: 'POST',
+  body: JSON.stringify({repo: 'https://github.com/openx-lab/git.git'})
+}).then(resp => resp.json())
+  .then(data => {
+    return fetch('http://api.kfcoding.com/api/practice/trains/competition/end', {
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: getCookie('token')
+      },
+      method: 'PUT',
+      body: JSON.stringify({id: data.data.id})
+    })
+  })
+
+
