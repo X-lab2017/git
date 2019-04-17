@@ -200,7 +200,7 @@
         {
           "title": "Complete",
           "text": "scenario/7.5-complete.md",
-          "preload": "script/complete.js"
+          "preload": "scripts/complete.js"
         }
       ]
     }
