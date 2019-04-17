@@ -8,6 +8,7 @@
     {
       "title": "提交文件",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习如何初始化一个git仓库，并提交文件到git仓库",
       "steps":[
         {
           "title": "git init",
