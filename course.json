@@ -36,6 +36,7 @@
     {
       "title": "提交更改",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习如何比较并提交你的更改",
       "steps":[
         {
           "title": "git status",
@@ -66,6 +67,7 @@
     {
       "title": "远程协作",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习如何添加远程仓库，并推送/拉取更改，从而进行远程协作",
        "steps":[
          {
            "title": "git remote",
@@ -92,6 +94,7 @@
     {
       "title": "撤销更改",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习如何撤销你的更改",
        "steps":[
          {
             "title": "git checkout",
@@ -118,6 +121,7 @@
     {
       "title": "修复合并冲突",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习当发生冲突(conflicts)时如何解决冲突",
       "steps":[
         {
           "title": "git merge",
@@ -148,6 +152,7 @@
     {
       "title": "使用分支",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习怎么进行分支管理",
       "steps":[
         {
           "title": "git branch",
@@ -174,6 +179,7 @@
     {
       "title": "发现错误",
       "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-envs:git",
+      "description": "学习查看 commit 历史",
       "steps":[
         {
           "title": "比较两个提交间的差异",
