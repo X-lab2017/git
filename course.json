@@ -160,23 +160,28 @@
       "steps":[
         {
           "title": "git branch",
-          "text": "scenario/6.1-git_branch.md"
+          "text": "scenario/6.1-git_branch.md",
+          "check": "check/6.1-check.sh"
         },
         {
           "title": "列举分支",
-          "text": "scenario/6.2-列举分支.md"
+          "text": "scenario/6.2-列举分支.md",
+          "check": "check/6.2-check.sh"
         },
         {
           "title": "合并到master分支",
-          "text": "scenario/6.3-合并到master分支.md"
+          "text": "scenario/6.3-合并到master分支.md",
+          "check": "check/6.3-check.sh"
         },
         {
           "title": "推送分支",
-          "text": "scenario/6.4-推送分支.md"
+          "text": "scenario/6.4-推送分支.md",
+          "check": "check/6.4-check.sh"
         },
         {
           "title": "清理分支",
-          "text": "scenario/6.5-清理分支.md"
+          "text": "scenario/6.5-清理分支.md",
+          "check": "check/6.5-check.sh"
         }
       ]
     },
@@ -187,23 +192,28 @@
       "steps":[
         {
           "title": "比较两个提交间的差异",
-          "text": "scenario/7.1-比较两个提交间的差异.md"
+          "text": "scenario/7.1-比较两个提交间的差异.md",
+          "check": "check/7.1-check.sh"
         },
         {
           "title": "git log",
-          "text": "scenario/7.2-git_log.md"
+          "text": "scenario/7.2-git_log.md",
+          "check": "check/7.2-check.sh"
         },
         {
           "title": "git_bisect",
-          "text": "scenario/7.3-git_bisect.md"
+          "text": "scenario/7.3-git_bisect.md",
+          "check": "check/7.3-check.sh"
         },
         {
           "title": "git blame",
-          "text": "scenario/7.4-git_blame.md"
+          "text": "scenario/7.4-git_blame.md",
+          "check": "check/7.4-check.sh"
         },
         {
           "title": "Complete",
           "text": "scenario/7.5-complete.md",
+          "check": "check/7.5-check.sh"
           "preload": "scripts/complete.js"
         }
       ]
