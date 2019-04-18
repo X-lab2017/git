@@ -22,7 +22,8 @@
         },
         {
           "title": "git add",
-          "text": "scenario/1.3-git_add.md"
+          "text": "scenario/1.3-git_add.md",
+          "check": "check/1.3-check.sh"
         },
         {
           "title": "git commit",
