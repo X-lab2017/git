@@ -4,7 +4,7 @@ function getCookie(name) {
   if (parts.length == 2) return parts.pop().split(";").shift();
 }
 try {
-  fetch('http://api.kfcoding.com/api/basic/practice/trains/competition', {
+  fetch('http://api.kfcoding.com/api/practice/trains/competition', {
     headers: {
       'Content-Type': 'application/json',
       Authorization: getCookie('token')
