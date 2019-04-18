@@ -13,7 +13,8 @@
         {
           "title": "git init",
           "text": "scenario/1.1-git_init.md",
-          "preload": "scripts/preload.js"
+          "preload": "scripts/preload.js",
+          "check": "check/1.1-check.sh"
         },
         {
            "title": "git status",
