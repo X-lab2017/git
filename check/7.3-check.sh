@@ -1,2 +1,5 @@
 cd gitscenario7
-echo 1
+out=`git status | grep "You are currently bisecting" | wc -l`
+if [[ $out -ge "1" ]]; then
+	echo 1
+fi
