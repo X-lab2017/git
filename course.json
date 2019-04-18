@@ -27,11 +27,13 @@
         },
         {
           "title": "git commit",
-          "text": "scenario/1.4-git_commit.md"
+          "text": "scenario/1.4-git_commit.md",
+          "check": "check/1.4-check.sh"
         },
         {
           "title": "git ignore",
-          "text": "scenario/1.5-git_ignore.md"
+          "text": "scenario/1.5-git_ignore.md",
+          "check": "check/1.5-check.sh"
         }
       ]
     },
