@@ -201,7 +201,7 @@
           "title": "git blame",
           "text": "scenario/7.4-git_blame.md",
           "preload": "scripts/complete.js"
-        },
+        }
       ]
     }
   ]
