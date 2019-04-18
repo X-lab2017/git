@@ -213,7 +213,6 @@
         {
           "title": "Complete",
           "text": "scenario/7.5-complete.md",
-          "check": "check/7.5-check.sh",
           "preload": "scripts/complete.js"
         }
       ]
