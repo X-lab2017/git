@@ -45,6 +45,7 @@
         {
           "title": "git status",
           "text": "scenario/2.1-git_status.md"
+          "check": "check/2.1-check.sh"
         },
         {
           "title": "git diff",
@@ -53,6 +54,7 @@
         {
           "title": "git add",
           "text": "scenario/2.3-git_add.md"
+          "check": "check/2.3-check.sh"
         },
         {
           "title": "staged differences",
@@ -76,6 +78,7 @@
          {
            "title": "git remote",
            "text": "scenario/3.1-git_remote.md"
+           "check": "check/3.1-check.sh"
          },
          {
            "title": "git push",
