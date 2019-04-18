@@ -102,11 +102,13 @@
        "steps":[
          {
             "title": "git checkout",
-            "text": "scenario/4.1-git_checkout.md"
+            "text": "scenario/4.1-git_checkout.md",
+            "check": "check/4.1-check.sh"
          },
          {
            "title": "git reset",
-           "text": "scenario/4.2-git_reset.md"
+           "text": "scenario/4.2-git_reset.md",
+           "check": "check/4.2-check.sh"
          },
          {
            "title": "git reset --hard",
