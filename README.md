@@ -1,3 +1,5 @@
 # Git
 Git User Manual
+
+
 Git是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。Git是Linus Torvalds为了帮助管理Linux内核开发而开发的一个开放源码的版本控制软件。Git与常用的版本控制工具CVS和Subversion等不同，它采用了分布式版本库的方式，不必服务器端软件支持。
